@@ -1,5 +1,6 @@
 body {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364); */
+    background-color: #CAD5E2;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -7,7 +8,7 @@ body {
     width: 300px;
     margin: 20vh auto 0 auto;
     padding: 20px;
-    background-color: whitesmoke;
+    background-color: white;
     border-radius: 4px;
     font-size: 12px;
 }
@@ -21,15 +22,22 @@ body {
     padding: 10px;
     margin-top: 10px;
     width: 100%;
-    color: white;
-    background-color: rgb(41, 57, 194);
+    color: black;
+    font-weight: 1000 ;
+    background-color: #CAD5E2;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
+
+}
+#form button:hover{
+    background-color:#09c372;
 }
 
 .input-control {
     display: flex;
     flex-direction: column;
+    padding: 5px 5px;
 }
 
 .input-control input {
@@ -55,6 +63,6 @@ body {
 
 .input-control .error {
     color: #ff3860;
-    font-size: 9px;
+    font-size: 12px;
     height: 13px;
 }
